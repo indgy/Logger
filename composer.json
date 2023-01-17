@@ -1,0 +1,30 @@
+{
+    "name": "indgy/logger",
+    "type": "library",
+    "minimum-stability": "stable",
+    "description": "A dependency free PSR-3 compatible logger",
+    "keywords": [],
+    "homepage": "https://github.com/indgy/logger",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "indgy",
+            "email": "me@indgy.uk"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "psr/log": "^1.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Indgy\\Log\\": "src/Log/"
+        }
+    },
+    "scripts": {
+        "api-docs": "php /opt/local/bin/doctum update ./doctum.config.php", 
+        "user-docs": "mkdocs build", 
+        "user-docs-serve": "mkdocs serve", 
+        "test-all": "phpunit --coverage-clover build/logs/clover.xml"
+    }
+}
