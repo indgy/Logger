@@ -1,12 +1,13 @@
 # Logger
-PSR-3 logger
+
+A dependency free PSR-3 compatible logger
 
 ## Install
 
 Install this package via composer:
 
 ```sh
-composer install ignition-studios/logger
+composer install indgy/logger
 ```
 
 ## Usage
@@ -29,11 +30,8 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
-- [Ian Grindley](https://ignition-studios.com)
+- [indgy](https://indgy.uk)
 
 ## License
 
-### Proprietary
-
-The code in this repository is proprietary, unauthorised reproduction or distribution is forbidden.
-Written authorisation may only be granted by a Director of Ignition Studios Ltd.
+MIT
